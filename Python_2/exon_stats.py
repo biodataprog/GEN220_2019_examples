@@ -5,10 +5,9 @@ with open(filename,"r") as fh:
 	exon_count = 0
 	total_exon_length = 0
 	for line in fh:
-#		print(line)
 		list = line.strip().split("\t")
 #		print(list)
-		start = int(list[1])
+		start = int(list[1]) # convert string to number with int()
 		end   = int(list[2])
 		exonlen = end - start + 1
 		exon_count += 1
