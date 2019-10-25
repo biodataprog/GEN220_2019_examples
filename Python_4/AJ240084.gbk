@@ -1,0 +1,70 @@
+LOCUS       AJ240084                1905 bp    DNA     linear   PRI 03-FEB-2000
+DEFINITION  Homo sapiens TRIM gene, promoter.
+ACCESSION   AJ240084
+VERSION     AJ240084.1
+KEYWORDS    T-cell receptor interacting molecule; TRIM gene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Hubener,C., Mincheva,A., Lichter,P., Schraven,B. and Bruyns,E.
+  TITLE     Genomic organization and chromosomal localization of the human gene
+            encoding the T-cell receptor-interacting molecule (TRIM)
+  JOURNAL   Immunogenetics 51 (2), 154-158 (2000)
+   PUBMED   10663578
+REFERENCE   2  (bases 1 to 1905)
+  AUTHORS   Huebener,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-MAY-1999) Huebener C., Immunomodulation Laboratory,
+            Institute for Immunology, University of Heidelberg, Im Neuenheimer
+            Feld 305, Heidelberg, 69120, GERMANY
+FEATURES             Location/Qualifiers
+     source          1..1905
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /clone_lib="RPCI1,3-5 Human PAC library"
+     gene            1..1902
+                     /gene="TRIM"
+     regulatory      1..1746
+                     /regulatory_class="promoter"
+                     /gene="TRIM"
+     5'UTR           1747..1902
+                     /gene="TRIM"
+ORIGIN      
+        1 ccaaaaattt ccagtcctga aaccctttct ctttccaatg tcctctgtaa gctcgagttg
+       61 tgggcatcta ctttgcccat attccaaggt cttgcttagg taacctctgt agtcctttct
+      121 tgagcctagg acttctactt ttcttaccag ttaccctctt tcaggaccaa agctcaactc
+      181 ctcaaggcca taactaggcc ctctcctctc aaactgattt atcaggtgcc cgaatcttcc
+      241 tgaatgtctg ggattcaact tttcagcagt cttcctccct acgttccatc taattctaag
+      301 atgaaacctt ctgattcttt gttgtcctct gatccctaca tgaacctgag gctgctgttc
+      361 cctgaagtct tgttctgtca gcatccaggc ctgcttcata aaacctgtca ctctgctaat
+      421 ggttagcggc tgaacaaaga gtcctctggc caaataagtt tagaaaaact ctgataaaaa
+      481 tattatttgg gtttcctttt cgcaggactt acctaagcct ttaatatgca tctacggagg
+      541 taaaaataaa gctatatatt ttttccaaag atatttgttg aagaaacatt tgtcttctgc
+      601 gtttcttaaa ggccgagtgt tctatggaac atactttaaa aaaccctttt aaagaagctt
+      661 agaccagaga atctccaagg tctctttcag ttttacagcc tctgagtcaa cgattcacca
+      721 aaaaatattt tggggggaag tgattgaagt ggaaaaattt gttagtgttt agccagcttt
+      781 gtccaaagga taagatgcac tgtattttgc ttactaggga gttattttct ataatggaag
+      841 acaaagaaag cacaagacac ccatggtttt gtttgttcaa tcactgagag taagtctcaa
+      901 ttattgagac ttacgatgtg ccggtgtgct taattctagt tatgaaattt taataatgaa
+      961 taatatagat tctattcctt atatgagttt ccaaaagcat tgtccagaac atctatatta
+     1021 aaatatctta tcatatacaa tatatgtaat ttaaaatgca ctcagaaaat ctgcttgtta
+     1081 aaatgcagat tctagtgctt caccctaaat agtctaattt agacgggccc aggattttaa
+     1141 actagcatct tatagcatac ttatgtacac caacatgtaa gaactgctgc tattaagatt
+     1201 ctgggatggt ggttgagaac aggagcttgt tgtcaggtgg ctctagattg gacagagaaa
+     1261 ctcatactga taaggtgagg attgtcagga aataaggcag gcatctagcc tcgcattaag
+     1321 atgaggtata gaaggcaact gatacatact aagtgctcaa aaaatattaa ctccctgtcc
+     1381 tccatcatgg ctcaagaaaa tacaacagct gagcacaccc acgggttgct tactatttac
+     1441 ttatcagttt agtgtatctt attttgtttc catgtgaatt tacttgtgaa gagatgactg
+     1501 gattctctcc agagatagga agatccctcc tggtttaatt cctaccttta tttatttatt
+     1561 tttcaattag actcaggtat tgataaaaat tcaaatgtca gattacaaag gtgtgtggga
+     1621 tttttcttcc cacgttacac aatttaagtc gactgttttc agatcaaaac tcaagacaac
+     1681 tccttcacca catttcctgt ttgtaactga aacaaagtac acacaaaaga ttttaagaaa
+     1741 cagaagagaa aagaatccga ggcacagata aagataagtt ttactgtcat gctgctttta
+     1801 acataacaga gcaacatcac ctaggaaaaa agtttgtagg aggattttta atccatatat
+     1861 ttgtcttatg gctagataaa gatttctccg aaaaaaagaa gcatg
+//
+
