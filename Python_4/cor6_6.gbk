@@ -1,0 +1,55 @@
+LOCUS       X55053                   513 bp    mRNA    linear   PLN 02-MAR-1992
+DEFINITION  A.thaliana cor6.6 mRNA.
+ACCESSION   X55053
+VERSION     X55053.1
+KEYWORDS    antifreeze protein homology; cold-regulated gene; cor6.6 gene; KIN1
+            homology.
+SOURCE      Arabidopsis thaliana (thale cress)
+  ORGANISM  Arabidopsis thaliana
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
+            Camelineae; Arabidopsis.
+REFERENCE   1  (bases 1 to 513)
+  AUTHORS   Gilmour,S.J., Artus,N.N. and Thomashow,M.F.
+  TITLE     cDNA sequence analysis and expression of two cold-regulated genes
+            of Arabidopsis thaliana
+  JOURNAL   Plant Mol. Biol. 18 (1), 13-21 (1992)
+   PUBMED   1731964
+REFERENCE   2  (bases 1 to 513)
+  AUTHORS   Thomashow,M.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-FEB-1991) M.F. Thomashow, Dept. Crop and Soil
+            Sciences, Dept. Microbiology, Michigan State University, East
+            Lansing, Michigan 48824, USA
+COMMENT     Cor6.6 homologous to KIN1. KIN1 is a cold-regulated Arabidopsis
+            gene with suggested similarity to type I fish antifreeze proteins.
+FEATURES             Location/Qualifiers
+     source          1..513
+                     /organism="Arabidopsis thaliana"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:3702"
+                     /ecotype="Columbia"
+     gene            1..513
+                     /gene="cor6.6"
+     CDS             50..250
+                     /gene="cor6.6"
+                     /note="cold regulated"
+                     /codon_start=1
+                     /protein_id="CAA38894.1"
+                     /db_xref="GOA:P31169"
+                     /db_xref="UniProtKB/Swiss-Prot:P31169"
+                     /translation="MSETNKNAFQAGQAAGKAEEKSNVLLDKAKDAAAAAGASAQQAG
+                     KSISDAAVGGVNFVKDKTGLNK"
+ORIGIN      
+        1 aacaaaacac acatcaaaaa cgattttaca agaaaaaaat atctgaaaaa tgtcagagac
+       61 caacaagaat gccttccaag ccggtcaggc cgctggcaaa gctgaggaga agagcaatgt
+      121 tctgctggac aaggccaagg atgctgctgc tgcagctgga gcttccgcgc aacaggcggg
+      181 aaagagtata tcggatgcgg cagtgggagg tgttaacttc gtgaaggaca agaccggcct
+      241 gaacaagtag cgatccgagt caactttggg agttataatt tcccttttct aattaattgt
+      301 tgggattttc aaataaaatt tgggagtcat aattgattct cgtactcatc gtacttgttg
+      361 ttgtttttag tgttgtaatg ttttaatgtt tcttctccct ttagatgtac tacgtttgga
+      421 actttaagtt taatcaacaa aatctagttt aagttctaaa aaaaaaaaaa aaaaaaaaaa
+      481 aaaaaaaaaa aaaaaaaaaa aaaaaaaaaa aaa
+//
+
