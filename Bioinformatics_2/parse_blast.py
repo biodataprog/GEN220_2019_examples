@@ -6,6 +6,12 @@ protein_file = "E_coli_K12.pep"
 blast_file   = "Ecoli-vs-Senterica.BLASTP.tab"
 seqlengths = {}
 
+# teh BLAST headers
+# http://www.pangloss.com/wiki/Blast
+
+
+# this function returns just the accession number from a long
+# sequence name like gi|1234|ref|YP_1234.1|
 def clean_name(id):
     split_name = id
     if re.search(r'\|',id):
