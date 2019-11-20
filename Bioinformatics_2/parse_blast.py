@@ -6,7 +6,7 @@ protein_file = "E_coli_K12.pep"
 blast_file   = "Ecoli-vs-Senterica.BLASTP.tab"
 seqlengths = {}
 
-# teh BLAST headers
+# the BLAST columns are documented for the default columns that come out of tabular format (-m9/-m8)
 # http://www.pangloss.com/wiki/Blast
 
 
@@ -18,7 +18,8 @@ def clean_name(id):
         split_name = id.split("|")
     return split_name[3]
 
-with open(protein_file, "rU") as handle:
+#
+with open(protein_file, "r") as handle:
     for record in SeqIO.parse(handle, "fasta"):
 #        print(record.id)
         seqlengths[record.id]  = len(record)
@@ -30,6 +31,7 @@ with open(protein_file, "rU") as handle:
 
 print("there are %d sequences stored"%(len(seqlengths)))
 
+# this is the headers for the output file
 print("\t".join(["QUERY","SUBJECT","PERCENT_ALIGNED","PERCENT_ID"]))
 with open(blast_file,"r") as blast:
     for line in blast:
