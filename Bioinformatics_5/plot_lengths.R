@@ -1,19 +1,7 @@
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-```{r TEs}
 transposons = read.csv("transposon.tab",sep="\t",header=TRUE)
 summary(transposons)
 mRNAs = read.csv("mRNA.tab",sep="\t",header=TRUE)
 summary(mRNAs)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r plots, echo=FALSE}
 hist(transposons$Length,100,main="Histogram of TE lengths")
 hist(log(mRNAs$Length),100,main="Histogram of mRNA lengths")
 boxplot(mRNAs$Length)
@@ -22,5 +10,4 @@ boxplot(transposons$Length)
 short = subset(mRNAs,mRNAs$Length < 10000)
 summary(short)
 boxplot(short$Length)
-```
 
