@@ -24,3 +24,10 @@ summary(short)
 boxplot(short$Length)
 ```
 
+```{r genelens, echo=FALSE}
+fungi = read.csv("fungi_genome_stats.csv",header=TRUE,sep=",")
+#summary(fungi)
+plot(fungi$GENOME_SIZE,fungi$GC)
+cor(fungi$GENOME_SIZE,fungi$GC)
+plot(fungi$GENOME_SIZE,fungi$mRNA.mean)
+```
