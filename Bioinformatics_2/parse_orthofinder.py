@@ -19,7 +19,10 @@ with open(orthogroups,"r") as ortho, open("Orthogroups_counts.tab","w") as ogout
         for i in range(1,len(row)):
             col = row[i]
             genes = col.split(", ")
-            groups[name][i-1] = len(genes)
+            groups[name][i-1] = 0
+            for gene in genes:
+                if len(gene):
+                    groups[name][i-1] += 1
 
     wrt = csv.writer(ogout,delimiter="\t")
     for group in groups:
