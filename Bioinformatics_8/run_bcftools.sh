@@ -13,10 +13,11 @@ m="$a.bam $m"
 done
 
 VCF=Salmonella.vcf.gz
-VCFFILTER=Salmonella.filtered.vcf.gz
+FILTERED=Salmonella.filtered.vcf.gz
+LOWQUAL="FAIL"
 bcftools mpileup -Ou -f $GENOME $m | bcftools call --ploidy 1 -vmO z -o $VCF
 tabix -p vcf $VCF
 bcftools stats -v -F $GENOME -s - $VCF > $VCF.stats
 mkdir -p plots
 plot-vcfstats -p plots/ $VCF.stats
-bcftools filter -O z -o $FILTERED -s LOWQUAL -i'%QUAL>10' $VCF
+bcftools filter -O z -o $FILTERED -s $LOWQUAL -i'%QUAL>10' $VCF
